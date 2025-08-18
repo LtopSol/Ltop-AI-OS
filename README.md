@@ -1,23 +1,23 @@
 # 🤖 AI-OS  
 
-Прототип искусственной "операционной системы", где агенты взаимодействуют через ядро событий.  
+A prototype of an artificial "operating system" where agents interact via an event kernel.
 
-## 📂 Архитектура
+## 📂 Architecture
 ```
 ai_os/
-│── kernel/      # ядро системы
-│── agents/      # агенты (echo, memory, chat)
-│── plugins/     # плагины (web, system)
-│── main.py      # запуск системы
+│── kernel/ # system kernel
+│── agents/ # agents (echo, memory, chat)
+│── plugins/ # plugins (web, system)
+│── main.py # system startup
 ```
 
-## 🚀 Запуск
+## 🚀 Launch
 ```bash
 python main.py
 ```
 
-## ✨ Возможности
-- Ядро событий  
-- Агент-память  
-- Агент-эхо  
-- Плагины  
+## ✨ Features
+- Event kernel
+- Agent-memory
+- Agent-echo
+- Plugins
