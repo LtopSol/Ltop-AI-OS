@@ -14,8 +14,8 @@ if __name__ == "__main__":
 
     threading.Thread(target=kernel.run, daemon=True).start()
 
-    kernel.send_event("echo", "Привет из AI-OS!")
-    kernel.send_event("memory", ("goal", "построить ИИ-операционку"))
+    kernel.send_event("echo", "Hello in AI-OS!")
+    kernel.send_event("memory", ("goal", "Set"))
     kernel.send_event("echo", f"В памяти: {memory.all()}")
 
     time.sleep(2)
