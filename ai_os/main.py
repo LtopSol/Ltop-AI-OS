@@ -16,7 +16,7 @@ if __name__ == "__main__":
 
     kernel.send_event("echo", "Hello in AI-OS!")
     kernel.send_event("memory", ("goal", "Set"))
-    kernel.send_event("echo", f"В памяти: {memory.all()}")
+    kernel.send_event("echo", f"В memory: {memory.all()}")
 
     time.sleep(2)
     kernel.stop()
